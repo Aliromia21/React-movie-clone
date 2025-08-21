@@ -33,16 +33,26 @@ A modern, responsive movie browsing application built with React and Vite, desig
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/Aliromia21/React-movie-clone.git ```
+git clone https://github.com/Aliromia21/React-movie-clone.git
 
 2. Navigate into the project directory
 
-``` cd React-movie-clone ```
+cd React-movie-clone
 
 3. Install dependencies
 
-``` npm install ```
+npm install
 
-4. Start the development server
-``` npm run dev ```
+5. Open your browser
 
+Go to http://localhost:5173
+ (Vite default) to view the application.
+
+1. Create a .env file in the root directory:
+
+touch .env
+
+
+2. Add your API key
+
+VITE_TMDB_API_KEY=your_api_key_here
