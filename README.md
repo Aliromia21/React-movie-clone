@@ -18,7 +18,6 @@ A modern, responsive movie browsing application built with React and Vite, desig
 - **Frontend**: React, Vite  
 - **Styling**: CSS  
 - **API**: TMDb API for movie data  
-- **State Management**: React Context API (if applicable)  
 
 ---
 
@@ -34,21 +33,16 @@ A modern, responsive movie browsing application built with React and Vite, desig
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/Aliromia21/React-movie-clone.git
-cd React-movie-clone
-npm install
-Go to http://localhost:5173
- (Vite default) to view the application.
-🔑 Configuration
+git clone https://github.com/Aliromia21/React-movie-clone.git ```
 
-To fetch movie data, you'll need to obtain an API key from The Movie Database (TMDb)
-.
+2. Navigate into the project directory
 
-1. Create a .env file in the root directory:
+``` cd React-movie-clone ```
 
-touch .env
+3. Install dependencies
 
+``` npm install ```
 
-2. Add your API key
+4. Start the development server
+``` npm run dev ```
 
-VITE_TMDB_API_KEY=your_api_key_here
