@@ -49,14 +49,14 @@ npm run dev
 
 5. Open your browser
 
-Go to http://localhost:5173
+6. Go to http://localhost:5173
  (Vite default) to view the application.
 
-1. Create a .env file in the root directory:
+7. Create a .env file in the root directory:
 
 touch .env
 
 
-2. Add your API key
+8. Add your API key
 
 VITE_TMDB_API_KEY=your_api_key_here
