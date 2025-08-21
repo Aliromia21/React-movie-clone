@@ -43,6 +43,10 @@ cd React-movie-clone
 
 npm install
 
+4. Start the development server
+
+npm run dev
+
 5. Open your browser
 
 Go to http://localhost:5173
