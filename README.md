@@ -56,7 +56,6 @@ npm run dev
 
 touch .env
 
-
 8. Add your API key
 
 VITE_TMDB_API_KEY=your_api_key_here
